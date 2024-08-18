@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="index.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Descubra o impostor!</title>
+</head>
+<body>
+  <img src="https://static.wikia.nocookie.net/kinitopedia/images/8/8c/KinitoWebWorld.png">
+  <h4>
+    Ao clicar no botão "Descobrir", você irá descobrir a real identidade desse personagem.
+  </h4>
+  <h3><strong>Tente adivinhar primeiro.</strong></h3>
+  <input id="input" type="text" placeholder="Nome">
+  <button onclick="submitAnswer()">Enviar palpite</button><br>
+  <button onclick="changeImage()"><strong>DESCOBRIR</strong></button>
+  <p id="p"></p>
+  <p>Avalie esse site! Seu feedback é muito importante.</p>
+  <select id="feedback">
+  <option selected disabled>Escolha uma nota</option>
+  <option>0</option>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  <option>6</option>
+  <option>7</option>
+  <option>8</option>
+  <option>9</option>
+  <option>10</option>
+</select>
+  <button onclick="siteFeedback()">Confirmar</button>
+  <p id="thanks"></p>
+</body>
+</html>
